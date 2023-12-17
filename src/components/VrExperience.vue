@@ -1,6 +1,6 @@
 <template>
     <div>
-      <a-scene embedded arjs>
+      <a-scene>
         <!-- Use the public directory for static assets -->
         <a-sky :src="img" rotation="0 -90 0"></a-sky>
       </a-scene>
